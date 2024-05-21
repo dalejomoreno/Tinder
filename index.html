@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tinder</title>
+    <link rel="stylesheet" href="css/app.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <script defer src="js/app.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__izq">
+            <h1 class="header__h1">
+                <a href="#" title="Tinder" class="header__logo">
+                    <svg class="header__img" viewBox="0 0 519 123">
+                        <g class="header__g" fill="none" fill-rule="evenodd">
+                            <title>Tinder</title>
+                            <path
+                                d="M31.5 49.6C55 41.5 59 20.4 56 1c0-.7.6-1.2 1.2-1C79.7 11 105 35 105 71c0 27.6-21.4 52-52.5 52a50 50 0 0 1-28.2-92.7c.6-.4 1.4 0 1.4.7.3 3.7 1.3 13 5.4 18.6h.4z"
+                                fill="var(--color--white, inherit)"></path>
+                            <path
+                                d="M171.2 101.1l1.7-2 5.3 16.8-.7.7c-4 3.7-10 5.6-17.7 5.6h-.3c-7 0-12.5-2-16.3-5.7-3.8-3.8-5.8-9.5-5.8-16.7V54h-13.5V35.5h13.5V13.2h20.8v22.3h16.5V54h-16.6v41.3c0 1.9.5 8 6.3 8 3 0 5.8-1.1 6.8-2.3zm11 19.2V35.6H203v84.7h-20.8zM192.5 1A12.5 12.5 0 1 1 180 13.6C180 6.8 185.7 1 192.5 1zm66.4 32.5c18 0 27.9 9.8 27.9 27.7v59H266V66.2c-.4-9.6-5-14-14.8-14-8.8 0-15.9 5.4-19.5 10v58h-20.8V35.7h20.8v9c6-5.8 15.6-11 27.2-11zM356 44.4V4.6h20.8v115.8H356v-8.8a34.3 34.3 0 0 1-24.7 10.7c-22.7 0-37.9-17.8-37.9-44.3 0-26.6 15.2-44.4 37.9-44.4A34 34 0 0 1 356 44.4zm0 17.9a25.6 25.6 0 0 0-19.6-10c-12.9 0-21.5 10.3-21.5 25.7 0 15.3 8.6 25.6 21.5 25.6 7.5 0 15.7-4 19.6-9.8V62.3zm69.4-28.7c24.6 0 41.7 19 41.7 46v5.7h-62.9c2.1 11.9 11.5 19.5 24.3 19.5 8.1 0 17-3.5 22.1-8.6L452 95l9.9 14.2-1 .9a48.6 48.6 0 0 1-34.1 12.2c-26 0-44.3-18.3-44.3-44.4a42.8 42.8 0 0 1 43-44.3zm-21.3 36h42.7c-1.2-12.7-11.7-18.5-21.4-18.5-14.6 0-20.1 11-21.3 18.6zm113.3-36h1.5v21l-1.8-.3c-1.5-.3-3.4-.5-5.3-.5-6.7 0-16 4.7-19.5 9.7v56.7h-20.8V35.6h20.9V45c6.9-7.2 16-11.4 25-11.4z"
+                                fill="var(--color--white, inherit)"></path>
+                        </g>
+                    </svg>
+                </a>
+            </h1>
+
+            <nav class="header__nav">
+                <ul class="header__ul">
+                    <li class="header__li"><a href="#" class="header__a" title="Productos">Products</a></li>
+                    <li class="header__li"><a href="#" class="header__a" title="Informacion">Learn</a></li>
+                    <li class="header__li"><a href="#" class="header__a" title="Seguridad">Safety</a></li>
+                    <li class="header__li"><a href="#" class="header__a" title="Ayuda">Support</a></li>
+                    <li class="header__li"><a href="#" class="header__a" title="Descargas">Download</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <ul class="header__ul btns">
+            <li class="header__li">
+                <button class="header__btn">
+                    <svg class="header__svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-globe-americas" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484q-.121.12-.242.234c-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z" />
+                    </svg>
+                    <span>Language</span>
+                </button>
+            </li>
+            <li class="header__li">
+                <button class="header__btn header__btn--join">Log in</button>
+            </li>
+        </ul>
+
+        <svg class="header__menu" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+        </svg>
+    </header>
+
+    <main class="main">
+        <section class="swipea">
+            <h2 class="swipea__h2">Swipe Right®</h2>
+            <button class="swipea__btn">
+                <span>Create account</span>
+            </button>
+        </section>
+
+        <div class="testimonios">
+            <div class="testimonios__wrapper wrapper">
+                <ul class="testimonios__slider">
+                    <li class="testimonios__slide">
+                        <h3 class="testimonios__names">item</h3>
+                        <p class="testimonios__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis vero
+                            autem odio amet, quia fuga dicta expedita vitae? Vitae quis dignissimos accusantium
+                            excepturi porro odio asperiores commodi amet harum doloremque.</p>
+                    </li>
+                    <li class="testimonios__slide">
+                        <h3 class="testimonios__names">item</h3>
+                        <p class="testimonios__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis vero
+                            autem odio amet, quia fuga dicta expedita vitae? Vitae quis dignissimos accusantium
+                            excepturi porro odio asperiores commodi amet harum doloremque.</p>
+                    </li>
+                    <li class="testimonios__slide">
+                        <h3 class="testimonios__names">item</h3>
+                        <p class="testimonios__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis vero
+                            autem odio amet, quia fuga dicta expedita vitae? Vitae quis dignissimos accusantium
+                            excepturi porro odio asperiores commodi amet harum doloremque.</p>
+                    </li>
+                    <li class="testimonios__slide">
+                        <h3 class="testimonios__names">item</h3>
+                        <p class="testimonios__p">4Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis vero
+                            autem odio amet, quia fuga dicta expedita vitae? Vitae quis dignissimos accusantium
+                            excepturi porro odio asperiores commodi amet harum doloremque.</p>
+                    </li>
+                    <li class="testimonios__slide">
+                        <h3 class="testimonios__names">item</h3>
+                        <p class="testimonios__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis vero
+                            autem odio amet, quia fuga dicta expedita vitae? Vitae quis dignissimos accusantium
+                            excepturi porro odio asperiores commodi amet harum doloremque.</p>
+                    </li>
+                    <li class="testimonios__slide">
+                        <h3 class="testimonios__names">item</h3>
+                        <p class="testimonios__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis vero
+                            autem odio amet, quia fuga dicta expedita vitae? Vitae quis dignissimos accusantium
+                            excepturi porro odio asperiores commodi amet harum doloremque.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper">
+
+            <ul class="footer__legal legal">
+                <li class="legal__col">
+                    <ul class="legal__ul">
+                        <li class="legal__li legal__li--title">Legal</li>
+                        <li class="legal__li"><a class="legal__a" href="#" title="Privacy">Privacy</a></li>
+                        <li class="legal__li"><a class="legal__a" href="#"
+                                title="Consumer Health Data Privacy Policy">Consumer Health Data Privacy Policy</a></li>
+                        <li class="legal__li"><a class="legal__a" href="#" title="Terms">Terms</a></li>
+                        <li class="legal__li"><a class="legal__a" href="#" title="Cookie Policy">Cookie Policy</a></li>
+                        <li class="legal__li"><a class="legal__a" href="#" title="Intellectual Property">Intellectual
+                                Property</a></li>
+                    </ul>
+                </li>
+                <li class="legal__col">
+                    <ul class="legal__ul">
+                        <li class="legal__li legal__li--title">Careers</li>
+                        <li class="legal__li"><a href="#" title="Careers Portal" class="legal__a">Careers Portal</a>
+                        </li>
+                        <li class="legal__li"><a href="#" title="Tech Blog" class="legal__a">Tech Blog</a></li>
+                    </ul>
+                </li>
+                <li class="legal__col">
+                    <ul class="legal__ul legal__ul--rrss">
+                        <li class="legal__li legal__li--title">Social</li>
+                        <li class="legal__li"><a class="legal__a" href="#" title="Instagram">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="legal__svg legal__svg--instagram" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                                </svg>
+                            </a></li>
+                        <li class="legal__li"><a class="legal__a" href="#" title="TikTok">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="legal__svg legal__svg--tiktok" viewBox="0 0 16 16">
+                                    <path
+                                        d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z" />
+                                </svg>
+                            </a></li>
+                        <li class="legal__li"><a class="legal__a" href="#" title="YouTube">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="legal__svg legal__svg--youtube" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z" />
+                                </svg>
+                            </a></li>
+                        <li class="legal__li"><a class="legal__a" href="#" title="Twitter">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="legal__svg legal__svg--twitter" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
+                                </svg>
+                            </a></li>
+                        <li class="legal__li"><a class="legal__a" href="#" title="Facebook">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="legal__svg legal__svg--facebook" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                                </svg>
+                            </a></li>
+                    </ul>
+                </li>
+                <li class="legal__col">
+                    <ul class="legal__ul">
+                        <li class="legal__li"><a class="legal__a" href="#" title="FAQ">FAQ</a></li>
+                        <li class="legal__li"><a class="legal__a" href="#" title="Destinations">Destinations</a></li>
+                        <li class="legal__li"><a class="legal__a" href="#" title="Press Room">Press Room</a></li>
+                        <li class="legal__li"><a class="legal__a" href="#" title="Contact">Contact</a></li>
+                        <li class="legal__li"><a class="legal__a" href="#" title="Promo Code">Promo Code</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <section class="footer__app app">
+                <h2 class="app__h2">Get the app!</h2>
+                <ul class="app__ul">
+                    <li class="app__li">
+                        <a href="#" class="app__a" target="_blank" rel="noreferrer">
+                            <img class="app__img" src="assets/download_store.webp" alt="Descarga" loading="lazy">
+                        </a>
+                    </li>
+                    <li class="app__li">
+                        <a href="#" class="app__a" target="_blank" rel="noreferrer">
+                            <img class="app__img" src="assets/download_googlePlay.webp" alt="Descarga" loading="lazy">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <p class="footer__claim">Single people, listen up: If you’re looking for love, want to start dating, or just
+                keep it
+                casual, you need to be on Tinder. With over 55 billion matches made, it’s the place to be to meet your
+                next best match. Let’s be real, the dating landscape looks very different today, as most people are
+                meeting online. With Tinder, the world’s most popular free dating app, you have millions of other single
+                people at your fingertips and they’re all ready to meet someone like you. Whether you’re straight or in
+                the LGBTQIA community, Tinder’s here to bring you all the sparks.</p>
+
+            <p class="footer__claim">There really is something for everyone on Tinder. Want to get into a relationship?
+                You got
+                it. Trying to find some new friends? Say no more. New kid on campus and looking to make the most of your
+                college experience? Tinder U’s got you covered. Tinder isn’t your average dating site — it’s the most
+                diverse dating app, where adults of all backgrounds and experiences are invited to make connections,
+                memories, and everything in between.</p>
+            <div class="footer__sub">
+                <ul class="footer__faqs faqs">
+                    <li class="faqs__li"><a class="faqs__a" href="#" title="FAQ">FAQ</a></li>
+                    <li class="faqs__li"><a class="faqs__a" href="#" title="Safety Tips">Safety Tips</a></li>
+                    <li class="faqs__li"><a class="faqs__a" href="#" title="Terms">Terms</a></li>
+                    <li class="faqs__li"><a class="faqs__a" href="#" title="Cookie Policy">Cookie Policy</a></li>
+                    <li class="faqs__li"><a class="faqs__a" href="#" title="Privacy Settings">Privacy Settings</a></li>
+                </ul>
+                <span class="footer__copy">© 2024 Match Group, LLC, All Rights Reserved.</span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
